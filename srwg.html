@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css"/>
+    <title>SURAWUNG</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 50px;
+            color: rgba(90, 36, 134, 0.943);
+            text-shadow: 1px 0px 5px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .Menu {
+            display: none;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+        h1 {
+            font-size: 28px;
+        }
+        }
+        th, td {
+            font-size: auto;
+            padding: 2px;
+        }
+        .custom-button {
+            font-size: 10px;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .button-container {
+            display: flex;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            white-space: nowrap;
+        }
+        .button-container th {
+            flex-grow: 1;
+            padding: 5px;
+        }
+        th, td {
+            border: 5px solid rgb(0, 0, 0);
+            padding: 2px;
+        }
+        .button-KAKANG {
+            background-color: rgb(0, 0, 0);
+            color: rgb(254, 254, 254);
+        }
+        .button-JAYA{
+            background-color: rgb(0, 0, 0);
+            color: rgb(254, 254, 254);
+        }
+        .button-EHAN {
+            background-color: rgb(0, 0, 0);
+            color: rgb(254, 254, 254);
+        }
+        .button-BILLY{
+            background-color: rgb(0, 0, 0) ;
+            color: rgb(254, 254, 254);
+        }
+        .button-PRAMESA {
+            background-color: rgb(0, 0, 0);
+            color: rgb(254, 254, 254);
+        }
+        .button-DENIS {
+            background-color: rgb(0, 0, 0);
+            color: rgb(254, 254, 254);
+        }
+        .button-FAJAR {
+            background-color: rgb(0, 0, 0) ;
+            color: rgb(254, 254, 254);
+        }
+        .button-ANDHIKA {
+            background-color: rgb(3, 2, 2);
+            color: rgb(254, 254, 254);
+        }
+        .button-UCSYUF {
+            background-color: rgb(0, 0, 0);
+            color: rgb(254, 254, 254);
+        }
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<div class="w3-container">
+    <h1><b>THIS IS WEBSITE ABOUT US SURAWUNG
+    <img src="css/surawung.jpg" alt="" width="100%" height="500%"/>
+    </h1></b>
+</div>
+    <div class="w3-bar w3-button custom-button">
+        <table style="width: 100%; text-align: center;">
+            <tr>
+        <th><button class="w3-bar-item w3-button custom-color button-KAKANG" onclick="openmenu('KAKANG')">KAKANG</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-JAYA" onclick="openmenu('JAYA')">JAYA</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-EHAN" onclick="openmenu('EHAN')">EHAN</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-BILLY" onclick="openmenu('BILLY')">BILLY</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-PRAMESA" onclick="openmenu('PRAMESA')">ALPRAM</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-DENIS" onclick="openmenu('DENIS')">DENIS</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-FAJAR" onclick="openmenu('FAJAR')">FAJAR</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-ANDHIKA" onclick="openmenu('ANDHIKA')">ANDHIKA</button></th>
+        <th><button class="w3-bar-item w3-button custom-color button-UCSYUF" onclick="openmenu('USUV')">USUV</button></th>
+            </tr>
+        </table>
+    </div>
+<br>
+    <div id="KAKANG" class="w3-container Menu w3-animate-zoom custom-button" style="display: none">
+        <center>
+            <img src="css/kakang.jpg" width="35%" height="600%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>
+    
+    <div id="JAYA" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <center>
+            <img src="css/jaya.jpg" width="35%" height="600%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>  
+    
+    <div id="EHAN" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <br>
+        <center>
+        <img src="css/ehan.jpg" width="35%" height="600%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>
+    
+    <div id="BILLY" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <center>
+        <img src="css/bili.jpg" height="600%" width="35%" class="w3-animate-top w3-button custom-button"/>
+        </center>
+    </div>
+
+    <div id="PRAMESA" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <center>
+        <img src="css/alpram.jpg" height="600%" width="35%" class="w3-animate-top w3-button custom-button"/>
+        </center>
+    </div>
+
+    <div id="DENIS" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <br>
+        <center>
+        <img src="css/denis.jpg" width="35%" height="300%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>
+
+    <div id="FAJAR" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <br>
+        <center>
+        <img src="css/pajar.jpg" width="35%" height="600%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>
+
+    <div id="ANDHIKA" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <br>
+        <center>
+        <img src="css/andhika.jpg" width="35%" height="600%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>
+
+    <div id="USUV" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <br>
+        <center>
+        <img src="css/yusuf.jpg" width="35%" height="600%" class="w3-animate-top w3-button custom-button">
+        </center>
+    </div>
+    <script>
+    
+    function openmenu(namaMenu) {
+        var i;
+        var x = document.getElementsByClassName("Menu");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(namaMenu).style.display = "block";
+    }
+    </script>
+</body>
+</html>
